@@ -1,4 +1,4 @@
-﻿namespace Lab1_test
+namespace Lab1_test
 {
     [TestClass]
     public sealed class WhiteTest
@@ -105,7 +105,7 @@
                 { 0, 2.3, -1, -1, 1, 0.01, 1.23, -3.2, 1, 0 },
                 { 0, 1, 1, 0.5, 1.5, 3, 2, 2.5, 1, 1 }
             };
-            var answer = new bool[] { true, false, false, false, false, false, false, false, false, true };
+            var answer = new bool[] { true, false, false, false, false, true, false, false, false, true };
             var test = new bool[answer.Length];
             // Act
             for (int i = 0; i < answer.Length; i++)
@@ -160,4 +160,3 @@
         }
     }
 }
-
